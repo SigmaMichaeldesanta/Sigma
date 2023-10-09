@@ -1,2 +1,2 @@
 # Sigma
-All quizzes and exercises given by Harry bhai
+All quizzes and exercises given by CodewithHarry
