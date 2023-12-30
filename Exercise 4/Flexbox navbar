@@ -1,0 +1,275 @@
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UltraEdit Text Editor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbarmain">
+      <div class="websitelogo">
+        <img src="LOGO WEB.png" alt="UE" height="70px" width="160px" />
+      </div>
+      <div class="categories">
+        <a href="#">Products▼</a>
+        <a href="#">Pricing▼</a>
+        <a href="#">Resources▼</a>
+        <a href="#">About Us▼</a>
+        <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt="language-change png">
+      </div>
+    </div>
+    <div class="H1-main">
+      <p>Download <strong>UltraEdit</strong> for Windows</p>
+      <img
+        src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png"
+        alt="Reviews"
+        height="32"
+        width="112"
+      />
+    </div>
+    <div class="buttonsandtext">
+      <p>
+        Download and try UltraEdit before you buy it! This download includes the
+        full Windows version of the text editor.
+      </p>
+      <button>DOWNLOAD MAC OR LINUX VERSION</button>
+    </div>
+    <div class="logoandversion">
+      <img src="logo website.png" alt="UE logo" />
+      <span style="font-size: 23px">Download UltraEdit</span>
+      <span style="font-size: 13px">
+        v2023.2(released 12/15/2023) | Hotfix</span
+      >
+    </div>
+    <div class="section1-download">
+      <div class="right">
+        <h2>English</h2>
+        <div class="custombuttons">
+          <button class="button1">Download-32 bit</button>
+          <button class="button2">Download-64 bit</button>
+        </div>
+      </div>
+      <div class="mid">
+        <h2>Deutsch</h2>
+        <p>German</p>
+        <div class="custombuttons">
+          <button class="button1">Download-32 bit</button>
+          <button class="button2">Download-64 bit</button>
+        </div>
+      </div>
+      <div class="left">
+        <h2>Italiano</h2>
+        <p>Italian</p>
+        <div class="custombuttons">
+          <button class="button1">Download-32 bit</button>
+          <button class="button2">Download-64 bit</button>
+        </div>
+      </div>
+    </div>
+    <div class="section1-download">
+      <div class="right">
+        <h2>Español</h2>
+        <p>Spanish</p>
+        <div class="custombuttons">
+          <button class="button1">Download-32 bit</button>
+          <button class="button2">Download-64 bit</button>
+        </div>
+      </div>
+      <div class="mid">
+        <h2>français</h2>
+        <p>French</p>
+        <div class="custombuttons">
+          <button class="button1">Download-32 bit</button>
+          <button class="button2">Download-64 bit</button>
+        </div>
+      </div>
+      <div class="left">
+        <h2>Português brasileiro</h2>
+        <p>Brazilian Portuguese</p>
+        <div class="custombuttons">
+          <button class="button1">Download-32 bit</button>
+          <button class="button2">Download-64 bit</button>
+        </div>
+      </div>
+    </div>
+    <div class="section1-download">
+      <div class="right">
+        <h2>日本</h2>
+        <p>Japanese</p>
+        <div class="custombuttons">
+          <button class="button1">Download-32 bit</button>
+          <button class="button2">Download-64 bit</button>
+        </div>
+      </div>
+      <div class="mid">
+        <h2>한국어</h2>
+        <p>Korean</p>
+        <div class="custombuttons">
+          <button class="button1">Download-32 bit</button>
+          <button class="button2">Download-64 bit</button>
+        </div>
+      </div>
+      <div class="left">
+        <h2>中国</h2>
+        <p>Chinese</p>
+        <div class="custombuttons">
+          <button class="button1">Download-32 bit</button>
+          <button class="button2">Download-64 bit</button>
+        </div>
+      </div>
+    </div>
+    <div class="lastsection">
+      <div class="last-right">
+        <h2>中國</h2>
+        <p>Traditional Chinese</p>
+        <div class="custombuttons">
+          <button class="button1">Download-32 bit</button>
+          <button class="button2">Download-64 bit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+CSS:
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbarmain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.websitelogo {
+  margin: 15px 20px;
+}
+.categories a {
+  text-decoration: none;
+  margin: 15px 20px;
+  font-size: 16px;
+  font-family: "Segoe UI", sans-serif;
+  color: black;
+}
+.categories img {
+  cursor: pointer;
+  margin-bottom: -4px;
+}
+.categories a:hover {
+  color: #00b6d1;
+}
+.H1-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  margin: 25px 10px;
+}
+.H1-main p {
+  margin: 0px 30px;
+}
+.buttonsandtext {
+  display: flex;
+  margin: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttonsandtext p {
+  font-size: 23px;
+  text-align: center;
+  margin: 15px 250px;
+  font-family: "Satoshi", sans-serif;
+}
+.buttonsandtext button {
+  border: none;
+  background-color: #00b6d1;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 6px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.logoandversion {
+  display: flex;
+  margin: 0px 235px;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.section1-download {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 235px;
+  font-family: "Roboto", sans-serif;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+.button1 {
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 5px;
+  background-color: #00b6d1;
+  font-weight: bold;
+}
+.button2 {
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 5px;
+  background-color: #00d134;
+  font-weight: bold;
+}
+.mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+.lastsection {
+  display: flex;
+  margin: 40px 235px;
+}
+.last-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+.section1-download p,
+.lastsection p {
+  padding: 10px 0px; /* adjust the value as per your requirement */
+}
+
+**All images are taken from the Ultraedit website itself.**
