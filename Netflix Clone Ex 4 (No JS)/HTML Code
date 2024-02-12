@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./Assets/Images/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <img src="./Assets/Images/red-logo.svg" alt="Netflix Logo" />
+        <div class="cat">
+          <button class="lang">
+            <i class="fa-solid fa-globe"></i>English
+            <i class="fa-solid fa-caret-down"></i>
+          </button>
+          <button>Sign In</button>
+        </div>
+      </nav>
+      <div class="header-content">
+        <h1>
+          The biggest Indian hits. The best Indian stories. All streaming here.
+        </h1>
+        <h3>Watch anywhere. Cancel anytime.</h3>
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <form class="Email-form">
+          <input type="email" placeholder="Email address" required="required" />
+          <button type="submit">
+            Get Started<i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <hr />
+    <!-- -----------Section 1 ---------------------->
+    <section class="first section-one">
+      <div class="sec-text">
+        <h2>Enjoy on your TV.</h2>
+        <h3>
+          Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+          players, and more.
+        </h3>
+      </div>
+      <div class="sec-img">
+        <img src="./Assets/Images/tv.png" />
+        <video
+          src="./Assets/Videos/video playing in TV.m4v"
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+    </section>
+    <hr />
+    <section class="first second">
+      <div class="sec-img">
+        <img src="./Assets/Images/mobile-0819.jpg" />
+        <div class="overbox">
+          <img src="./Assets/Images/boxshot.png" />
+          <div class="textbox">
+            <h3>Stranger Things</h3>
+            <p>Downloading...</p>
+          </div>
+          <img src="./Assets/Images/download-icon.gif" />
+        </div>
+      </div>
+      <div class="sec-text">
+        <h2>Download your shows to watch offline</h2>
+        <h3>Save your favourites easily and always have something to watch.</h3>
+      </div>
+    </section>
+    <hr />
+    <section class="first third">
+      <div class="sec-text">
+        <h2>Watch everywhere.</h2>
+        <h3>
+          Stream unlimited movies and TV shows on your phone, tablet, laptop,
+          and TV.
+        </h3>
+      </div>
+      <div class="sec-img">
+        <img src="./Assets/Images/device-pile-in.png" />
+        <video
+          src="./Assets/Videos/video playing in Mac .m4v"
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+    </section>
+    <hr />
+    <section class="first fourth">
+      <div>
+        <img src="./Assets/Images/Child Mode.png" />
+      </div>
+      <div class="sec-text">
+        <h2>Create profiles for kids</h2>
+        <h3>
+          Send children on adventures with their favourite characters in a space
+          made just for them—free with your membership.
+        </h3>
+      </div>
+    </section>
+    <hr />
+    <section class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="box-question">
+        <span>What is Netflix?</span>
+        <span><i class="fa-solid fa-plus"></i></span>
+      </div>
+      <div class="box-question">
+        <span>How much does Netflix cost?</span>
+        <span><i class="fa-solid fa-plus"></i></span>
+      </div>
+      <div class="box-question">
+        <span>Where can I watch?</span>
+        <span><i class="fa-solid fa-plus"></i></span>
+      </div>
+      <div class="box-question">
+        <span>How do I cancel?</span>
+        <span><i class="fa-solid fa-plus"></i></span>
+      </div>
+      <div class="box-question">
+        <span>What can I watch on Netflix?</span>
+        <span><i class="fa-solid fa-plus"></i></span>
+      </div>
+      <div class="box-question">
+        <span>Is Netflix good for kids?</span>
+        <span><i class="fa-solid fa-plus"></i></span>
+      </div>
+    </section>
+    <section class="mail">
+      <p>
+        Ready to watch? Enter your email to create or restart your membership.
+      </p>
+      <form class="Email-form">
+        <input type="email" placeholder="Email address" required="required" />
+        <button type="submit">
+          Get Started<i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </form>
+    </section>
+    <hr />
+    <div class="call">
+      <pre>Questions? Call </pre>
+      <a href="tel:+000-800-919-1694">000-800-919-1694</a>
+    </div>
+    <div class="footer">
+      <div class="footer1st">
+        <a href="#">FAQ</a>
+        <a href="#">Investor Relations</a>
+        <a href="#">Speed Test</a>
+        <div class="choose">
+          <select name="languages">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+          </select>
+        </div>
+        <p style="text-align: left">Netflix India</p>
+      </div>
+      <div class="footer1st">
+        <a href="#">Help Centre</a>
+        <a href="#">Jobs</a>
+        <a href="#">Cookie Preferences</a>
+        <a href="#">Legal Notices</a>
+      </div>
+      <div class="footer1st" style="display: flex; justify-content: center">
+        <a href="#">Account</a>
+        <a href="#">Ways to Watch</a>
+        <a href="#">Corporate Information</a>
+        <a href="#">only on Netflix</a>
+      </div>
+      <div class="footer1st" style="display: flex; justify-content: center">
+        <a href="#">Media Centre</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Contact us</a>
+      </div>
+    </div>
+    <!-- FontAwesome Script
+    Don't Touch -->
+    <script
+      src="https://kit.fontawesome.com/f6c12e2c71.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
