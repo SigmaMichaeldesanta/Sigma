@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.header {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 100%,
+      rgba(0, 0, 0, 0) 85%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(./Assets/Images/Main\ Banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width:1200px) {
+  .first{
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  h2, h3, p{
+    text-align: center;
+  }
+  .sec-text{
+    padding:0rem 2rem;
+  }
+  section{
+    padding: 1rem 0rem;
+  }
+  
+  
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10.9rem;
+}
+nav img {
+  width: 9.25rem;
+  height: 2.5rem;
+}
+nav button {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+nav button i {
+  margin: 0rem 0.2rem;
+}
+.cat {
+  display: flex;
+  justify-content: space-between;
+}
+.lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 1px solid rgb(153, 153, 153);
+  margin-right: 1.5rem;
+}
+.header-content {
+  margin: auto;
+  padding: 0rem 9.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  margin-top: 10rem;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.header-content h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+}
+.header-content h3 {
+  font-size: 1.5rem;
+  font-family: "Satoshi";
+  font-weight: 500;
+  text-align: center;
+}
+.header-content p {
+  font-size: 1.5rem;
+  font-family: "Satoshi";
+  font-weight: 500;
+  text-align: center;
+}
+.Email-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.Email-form input {
+  width: 25rem;
+  height: 3.5rem;
+  background-color: rgba(0, 0, 0, 0.14);
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 0.2rem;
+  padding: 0rem 1rem;
+  font-size: medium;
+  color: white;
+  font-family: "Netflix Sans", Helvetica, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.Email-form button {
+  background-color: red;
+  color: white;
+  border: none;
+  margin-left: 1rem;
+  border-radius: 0.2rem;
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+  height: 3.5rem;
+}
+.Email-form button i {
+  margin-left: 0.5rem;
+}
+hr {
+  border: 4px solid #232323;
+}
+/* -------------Features----------------------- */
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+  font-family: "Netflix Sans", Helvetica, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.first h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.first h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.sec-img {
+  position: relative;
+}
+.sec-img img {
+  position: relative;
+  z-index: 10;
+}
+.sec-img video {
+  position: absolute;
+  top: 6rem;
+  left: 5rem;
+}
+.second {
+  margin-bottom: 3rem;
+}
+.third video {
+  position: absolute;
+  top: 3.5rem;
+  left: 7rem;
+  overflow: clip;
+  width: 25rem;
+}
+
+.overbox {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 20rem;
+  height: 5rem;
+  left: 23%;
+  top: 70%;
+  column-gap: 0.5rem;
+  z-index: 10;
+  background-color: black;
+  border: 2px solid rgb(104, 104, 104);
+  border-radius: 0.8rem;
+  padding: 0.5rem;
+}
+.textbox,
+.textbox h3 {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textbox p {
+  font-size: 0.875rem;
+  color: blue;
+}
+.faq {
+  font-family: "Satoshi";
+  padding: 1.5rem;
+  max-width: 75vw;
+  margin: auto;
+}
+.faq h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  padding-top: 6rem;
+  padding-bottom: 2.8rem;
+}
+.box-question {
+  transition: all 0.5s ease-out;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  margin: 0.8rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(45, 45, 45);
+  cursor: pointer;
+}
+.box-question:hover {
+  background-color: #414141;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-family: "Satoshi";
+  padding: 1.5rem;
+  max-width: 75vw;
+  margin: auto;
+}
+@media screen and (max-width:1200px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: left;
+    margin: auto;
+  }
+}
+a {
+  text-decoration: underline;
+  color: #a5a5a5;
+}
+p,
+pre {
+  color: #a5a5a5;
+  font-family: "satoshi";
+}
+.footer1st {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 1rem;
+}
+.footer1st select {
+  background-color: transparent;
+  color: #fff;
+  height: 1.8rem;
+  width: 5rem;
+  border-radius: 0.2rem;
+  font-family: "Satoshi";
+}
+.footer1st select option {
+  color: initial;
+  background: initial;
+}
+.call {
+  display: flex;
+  font-family: "Satoshi";
+  margin-top: 5.6rem;
+  margin-left: 11.4rem;
+}
+.mail p {
+  text-align: center;
+  font-family: "Satoshi";
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
